@@ -1,0 +1,17 @@
+if statement = code that executes if it's condition is true
+age = int(input("How old are you?: ))
+if age >= 18:
+    print("You are an adult!")
+elif age < 0:
+    print("You haven't been born yet!")
+   ##Can include as many elif statements as needed, if must be first and else last
+else:
+    print("You are a child!")
+
+##Logical operators (and,or,not) = used to check if 2 statements meet desired conditions
+temp = int(input("What is the temperature outside?")
+if temp >= 0 and <= 30:
+    print("The temperature is good today")
+    print("Go outside!")
+    ##If using the and operator, both statements must be true
+
