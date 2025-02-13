@@ -59,7 +59,7 @@ for i in range(rows):
 ##continue = skips to the next iteration of the loop
 ##pass = does nothing, acts as a placeholder
 
-## LIST = USED TO STORE MULTIPLE ITEMS IN A SINGLE VARIBALE
+## LIST = USED TO STORE MULTIPLE ITEMS IN A SINGLE VARIABLE
 food = ["pizza", "bun","dog","pasta"]
 ## the bracket changes from a variable to a list
 print(food[1])
@@ -97,4 +97,18 @@ for x in student:
     ##to print all elements in tuple
 if "bro" in student:
     print("Bro is in student")
+
+## set = collection which is unordered and un-indexed, no duplicate values
+utensils = {"fork","spoon","knife"}
+dishes = {"bowl", "plate", "cup"}
+for x in utensils:
+    print(x)
+utensils.add() ##add element
+utensils.remove() ##remove element
+utensils.clear() ##remove all elements
+utensils.update(dishes) ##adds all elements from dishes to the utensils set
+dinner_table = utensils.union(dishes) ##combines both sets to a new set defined
+print(utensils.difference(dishes)) ## prints elements that are not found in the original set
+print(utensils.intersection(dishes)) ##prints elements found in both sets
+
 
