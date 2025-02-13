@@ -14,4 +14,42 @@ if temp >= 0 and <= 30:
     print("The temperature is good today")
     print("Go outside!")
     ##If using the and operator, both statements must be true
+elif: temp < 0 or temp >30:
+    print("The temperature is bad today")
+       ## Use or if one of the two statements are true
 
+if not temp >= 0 and <= 30:
+    print("The temperature is good today")
+    print("Go outside!")
+elif not: temp < 0 or temp >30:
+    print("The temperature is bad today")
+    ## when using not after an operator changes the outcome to the opposite of the outcome w/o not operator
+
+
+ ## while loop = a statement that will execute as long as the conditions remain true
+ while 1==1:
+    print("Help!")
+    ##This is an infinity loop because there is no way to leave the while loop
+name = ""
+while len(name) ==0:
+    name = input("What is your name?")
+print("Hello "+name)
+##As long as the length of the name is 0, the while loop will continue until the a name is input
+
+##For loop = a statement that will execute a limited number of times
+    ##while loop = infinite execution of code
+    ##for loop = limited execution of code
+for i in range(10):
+    print(i)
+##for every index in the range of 10, i is printed in the range of 10 time900l
+
+for i in range(50,100+1,2):
+    print(i)
+##nested loop = the inner loop will finish it's code before the outer loop executes
+rows = input("How many rows?")
+columns = input("How many columns?")
+symbol = input("Enter your symbol")
+for i in range(rows):
+    for j in range(columns):
+        print(symbol, end="") ###the end statement prevents cursor from moving down to the next line
+    print()
