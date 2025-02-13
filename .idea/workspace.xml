@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be6c1fe-d180-4e10-8251-d5b5afd09f26" name="Changes" comment="Day 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day #2" beforeDir="false" afterPath="$PROJECT_DIR$/Day #2" afterDir="false" />
-    </list>
+    <list default="true" id="4be6c1fe-d180-4e10-8251-d5b5afd09f26" name="Changes" comment="Day 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739332612671</updated>
       <workItem from="1739332614032" duration="73000" />
-      <workItem from="1739404201862" duration="5131000" />
+      <workItem from="1739404201862" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="Day 2">
       <option name="closed" value="true" />
@@ -102,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739407566524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1739413209158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739413209158</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1739413749931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739413749931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
