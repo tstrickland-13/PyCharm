@@ -53,3 +53,48 @@ for i in range(rows):
     for j in range(columns):
         print(symbol, end="") ###the end statement prevents cursor from moving down to the next line
     print()
+
+#Loop control statements = change a loops execution from its normal sequence
+##break = used to terminate last loop entirely
+##continue = skips to the next iteration of the loop
+##pass = does nothing, acts as a placeholder
+
+## LIST = USED TO STORE MULTIPLE ITEMS IN A SINGLE VARIBALE
+food = ["pizza", "bun","dog","pasta"]
+## the bracket changes from a variable to a list
+print(food[1])
+## to extract element of list, use index brackets[]
+food[0] = "sushi"
+##changes element at index 0 to sushi
+food.append("ice cream")
+##adds a element to the end of the list
+food.remove("hotdog")
+##removes the element, hot dog
+food.pop()
+##removes the last element in the list
+food.insert(0,"cake")
+##at index, 0, adds the element "cake" to the list
+food.sort()
+##will create a list in alphabetical order
+food.clear()
+##clears all elements from a list
+
+##2-D lists in python = a list inside of a list (database)
+drinks = ["coffee", "soda","tea"]
+dinner = ["pizza","hotdog","burger"]
+dessert = ["cake","brownie","ice cream"]
+food = [drinks,dinner,dessert]
+print(food[0][0])
+##prints the first element inside of the first list
+
+##tuple = a list that is ordered and unchangeable
+            ##used to group related data
+student = ("bro",21,"male")
+print(student.count("bro"))
+    ##counts how many times bro shows up in tuple
+for x in student:
+    print(x)
+    ##to print all elements in tuple
+if "bro" in student:
+    print("Bro is in student")
+
